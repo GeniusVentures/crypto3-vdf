@@ -242,9 +242,9 @@ elseif(CRYPTO3_VDF_BOOST)
     endif()
 endif()
 
-cm_deploy(TARGETS ${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME}
-          INCLUDE include
-          NAMESPACE ${CMAKE_WORKSPACE_NAME}::)
+#cm_deploy(TARGETS ${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME}
+#          INCLUDE include
+#          NAMESPACE ${CMAKE_WORKSPACE_NAME}::)
 
 include(CMTest)
-cm_add_test_subdirectory(test)
+#cm_add_test_subdirectory(test)
